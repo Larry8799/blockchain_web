@@ -193,6 +193,8 @@ a:link, a:visited {
 
 #about-top{
 	width: 70%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 #about-top .center-div:hover{
@@ -220,6 +222,9 @@ a:link, a:visited {
 
 #about-conference{
 	position: relative;
+	padding: 0%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	min-height: 400px;
 	width: 100%;
 }
@@ -231,7 +236,7 @@ a:link, a:visited {
 	width: 5%;
 	overflow: hidden;
 	z-index: 100;
-	height: 100%;
+	height: 90%;
 	background-color: #FFFFFF;
 	position: absolute;
 
@@ -525,6 +530,14 @@ td > .text-content{
 	background-color: #2D2D35;
 }
 
+.award_title_container{
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: middle;
+	height: 50px;
+}
 .awards_list img{
 	padding: 0px 1vw;
 	height: 4vw;
@@ -554,6 +567,7 @@ td > .text-content{
 	display: flex;
 	text-align: left;
 	padding-left: 5%;
+	padding-top: 5%;
 }
 
 .feature_content{
@@ -566,8 +580,8 @@ td > .text-content{
 	display: inline-block;
 	width: 28%;
 	height: 25%;
-	margin: 4%;
-	margin-right: 8%;
+	margin-top: 5%;
+	margin-right: 15%;
 }
 
 .feature_icon{
@@ -589,7 +603,7 @@ td > .text-content{
 }
 .sponsor_title_container{
 	margin: 10px auto;
-	display: flex;
+	display: block;
 	flex-direction: row;
 	justify-content: center;
 	vertical-align: middle;
@@ -631,37 +645,6 @@ td > .text-content{
 	object-fit: contain;
 }
 
-#Venue{
-	position: relative;
-	width: 100%;
-	background-color: rgba(0,0,0,0.7);
-	z-index: 1;
-	overflow: hidden;
-}
-#Venue .overlay{
-	position: absolute;
-	background-color: rgba(0,0,0,0.7);
-	z-index: 2;
-}
-#Venue .row, #Venue .custom-container{
-	height: 100%;
-	padding: 5% 10px;
-}
-#Venue div:not(.overlay){
-	color: white;
-	z-index: 3;
-}
-#Venue p{
-	color: white;
-}
-#map_container{
-	position: relative;
-}
-#gmap{
-	width: 100%;
-	height: 370px;
-
-}
 #last_div{
 	width: 100%;
 	height: 200px;
