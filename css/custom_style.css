@@ -84,9 +84,6 @@ header > .container{
 	line-height: 20px;
 }
 
-
-
-
 a:link, a:visited {
   	text-decoration: none;
   	color: #F0B90B;
@@ -523,13 +520,28 @@ td > .text-content{
 }
 
 #awards_list{
+	display: block;
 	background-color: #2D2D35;
 }
+
 .awards_list img{
 	padding: 0px 1vw;
 	height: 4vw;
 	margin: 2vw 20px;
 	object-fit: contain;
+}
+
+.awards_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.awards_block{
+	display: inline-block;
+	width: 250px;
+	height: 150px;
+	margin: 5%;
 }
 
 .sponsor_title_container{
