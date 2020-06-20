@@ -1,0 +1,318 @@
+@media (max-width:1400px){
+	
+
+  	.text-title-big{
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.text-content{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.text-small{
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.text-title{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.content-icon{
+		height: 15px;
+		line-height: 15px;
+	}
+	.speaker-name{
+		font-size: 16px;
+	}
+	#mail_icon{
+		width: 15px;
+		margin-left: 10px;
+	}
+}
+
+@media (max-width:900px){
+
+	/*for mobile*/
+	#about-conference > .hide_overflow{
+		display: none;
+	}
+	#about-conference > .about-content{
+		width: 100%;
+	}
+	#about-conference > .left{
+		margin-left: 0px;
+	}
+	.custom-carousel > .right-btn{
+		right: -5.2%;
+	}
+	.custom-carousel-item {
+		height: 50vw;
+	}
+	.custom-carousel > .left-btn{
+		left: -5.2%;
+	}
+	#about-top{
+		margin: 15px 0px;
+		width: 90%;
+	}
+	#about-top > .center-div{
+		width: 50%;
+		padding: 1vh 10vw;
+	}
+	/*text size*/
+	.text-content{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.text-title{
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.text-small{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.content-icon{
+		height: 18px;
+		line-height: 18px;
+	}
+	.speaker-name{
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	#mail_icon{
+		width: 18px;
+		margin-left: 10px;
+	}
+	.yellow-line{
+		width: 14vw;
+	}
+	.about-content > .text-title{
+		text-align: center;
+		margin: 30px auto;
+	}
+	#agenda_collapse_original .custom-container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	/*.agenda_left{
+		width: 100%;
+		text-align: center !important;
+	}
+	.agenda_right{
+		width: 100%;
+		text-align: center !important;
+	}*/
+	#agenda_collapse .row-main {
+		padding: 2% 2px;
+	}
+	#agenda_collapse td{
+		text-align: left;
+		padding-left: 0px;
+		border: 0px;
+		height: 100%;
+	}
+	#agenda_collapse td button{
+		margin: 10px auto;
+	}
+	#Partners .text-content{
+		padding: 0px 4%;
+	}
+	#agenda_collapse .tab-pane{
+		width: 92%;
+	}
+	#showflight_btn{
+		width: 70%;
+		height: 30px;
+		line-height: 22px;
+		/*font-size: 15px;*/
+	}
+	.sponsors_list img{
+		height: 8vw;
+		margin: 3vw 20px;
+		object-fit: contain;
+	}
+	#travel_by_bit .text-content{
+		font-size: 14px;
+		line-height: 26px;
+	}
+	#showflight_btn{
+		font-size: 14px;
+	}
+	#travel_by_bit{
+		width: 65%;
+	}
+}
+@media (max-width:520px){
+	header{
+		height: 400px;
+		overflow: hidden;
+	}
+	.custom_btn{
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.text-title{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.text-title-big{
+		font-size: 23px;
+		line-height: 26px;
+	}
+	.text-content{
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.content-icon{
+		height: 14px;
+		line-height: 26px;
+	}
+	.speaker-name{
+		font-size: 15px;
+	}
+	#mail_icon{
+		width: 14px;
+		line-height: 26px;
+	}
+	header, #agenda_collapse_original{
+		height: 350px;
+		overflow: hidden;
+	}
+	.speaker{
+		min-width: 140px;
+		min-height: 197px;
+	}
+	#about-top{
+		width: 90%;
+	}
+	#about-top .center-div{
+		padding: 0px 0px;
+	}
+	#agenda_collapse td button{
+		font-size: 13px;
+		line-height: 16px;
+		padding: 2px 5px;
+	}
+}
+@media (max-width:375px){
+	.text-title{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.text-title-big{
+		font-size: 20px;
+		line-height: 23px;
+	}
+	.text-content{
+		font-size: 11px;
+		line-height: 26px;
+	}
+
+	.content-icon{
+		height: 12px;
+		line-height: 20px;
+	}
+	.speaker-name{
+		font-size: 13px;
+	}
+	#mail_icon{
+		width: 12px;
+		line-height: 20px;
+	}
+}
+@media (min-width:1600px){
+  	.text-title-big{
+		font-family: "IBM Plex Sans";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.text-content{
+		font-family: "IBM Plex Sans";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		line-height: 35px;
+		width: 100%;
+	}
+	.text-title{
+		font-family: IBM Plex Sans;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 40px;
+		line-height: 45px;
+		width: 100%;
+		text-align: center;
+		color: #333333;
+	}
+	.content-icon{
+		vertical-align: middle;
+		height: 29px;
+		margin-right: 10px;
+		margin-top: 2px;
+		margin-bottom: 8px;
+		line-height: 30px;
+	}
+	.speaker-name{
+		color: #333333;
+		font-size: 30px;
+	}
+	#mail_icon{
+		width: 30px;
+		margin-left: 10px;
+	}
+}
+@media (min-width:1900px){
+  	.text-title-big{
+		font-family: "IBM Plex Sans";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 65px;
+		line-height: 70px;
+	}
+
+	.text-content{
+		font-family: "IBM Plex Sans";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		line-height: 50px;
+		width: 100%;
+	}
+	.text-title{
+		font-family: IBM Plex Sans;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 55px;
+		width: 100%;
+		text-align: center;
+		color: #333333;
+	}
+	.content-icon{
+		vertical-align: middle;
+		height: 35px;
+		margin-right: 10px;
+		margin-top: 2px;
+		margin-bottom: 8px;
+		line-height: 36px;
+	}
+	.speaker-name{
+		color: #333333;
+		font-size: 35px;
+	}
+		#mail_icon{
+		width: 35px;
+		margin-left: 10px;
+	}
+	header, #agenda_collapse_original, {
+		height: 700px;
+		overflow: hidden;
+	}
+
+}

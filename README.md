@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# blockchainweek
+front-end code for blockchainweek
 
-You can use the [editor on GitHub](https://github.com/Larry8799/blockchain_web/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+初始化 sponsor 的 script 在 js/sponsor.js中
+用之前，先將所有sponsor logo 照順序以 0.png, 1.png ... 存放在img/sponsors/ 資料夾中。
+須確保所有 logo 都是png檔，且必須從0開始，不能斷號
+完成後將js/sponsor.js中 num_of_sponsor 的值改成sponsors的總數
+完成！！！
+PS. 原本 img/sponsors/ 內應該就有三張，請先刪掉，那是我測試用的
+PS1. 如果改完發現結果沒變，有可能是js的cache沒被刪掉，要清楚快取
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+還有如果About內容又變短的話，可以考慮改回原本左右的樣式，感覺會比較好看。
+內容大概不能超過目前的5/3
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Larry8799/blockchain_web/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
