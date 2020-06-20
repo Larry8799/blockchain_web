@@ -51,6 +51,13 @@ header > .container{
 	line-height: 30px;
 	width: 100%;
 }
+.text-mini{
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 15px;
+}
 .text-small{
 	font-family: "IBM Plex Sans";
 	font-style: normal;
@@ -179,9 +186,9 @@ a:link, a:visited {
 	position: absolute;
 	padding-left: 3%;
 	padding-top: 3%;
-	padding-bottom: 0%;
+	padding-bottom: 2%;
 	width: 100%;
-	top: 80%;
+	bottom: 0%;
 	left: 0;
 	background-color: rgba(0,0,0,0.55);
 	z-index: 3;
