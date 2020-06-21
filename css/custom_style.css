@@ -631,6 +631,22 @@ td > .text-content{
 	height: 15%;
 	margin: 5%;
 }
+.awards_block .yellow-line{
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto 8px;
+	width: 70%;
+	border: 1px solid #F0B90B;
+}
+.awards_img{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	padding-top: 80%;
+	margin-bottom: 5%;
+}
 
 #features_list{
 	display: block;
