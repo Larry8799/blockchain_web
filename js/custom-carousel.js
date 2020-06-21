@@ -1,6 +1,6 @@
-for (var i = 0; i < 13; i++) {
+for (var i = 0; i < 2; i++) {
     var newDiv = $("#example_carousel_item").clone();
-    newDiv.attr("src","img/carousel_img/$IMG_ID.jpg".replace("$IMG_ID",String(i)));
+    newDiv.attr("src","video/carousel_video/$video_ID.mp4".replace("$video_ID",String(i)));
     newDiv.addClass("item-"+String(i));
     newDiv.show();
     newDiv.appendTo("#carousel_img_list");

@@ -54,6 +54,9 @@
                         <a class="nav-link js-scroll-trigger text-small" href="#Agenda" id="to_agenda">Agenda</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger text-small" href="#Awards" id="to_awards">Awards</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger text-small" href="#Partners">Partners</a>
                     </li>
                     <!--<li class="nav-item">
@@ -92,34 +95,38 @@
         <div id="about-container" class="custom-container">
             <div class="row" id="about-top">
                 <div class="center-div" >
-                    <p class="text-title-big" style="margin-bottom: 0px; font-weight: lighter;">80+</p>
+                    <p class="text-title-big" style="margin-bottom: 0px;">80+</p>
                     <!-- <hr class="yellow-line"> -->
                     <p class="text-content" style="text-align: center; color: #333333;">Influential Speakers</p>
                 </div>  
                 <div class="center-div" >
-                    <p class="text-title-big" style="margin-bottom: 0px; font-weight: lighter;">30+</p>
+                    <p class="text-title-big" style="margin-bottom: 0px;">30+</p>
                     <!-- <hr class="yellow-line"> -->
                     <p class="text-content" style="text-align: center; color: #333333;">Panels & Fireside Chats</p>
                 </div>  
                 <div class="center-div" >
-                    <p class="text-title-big" style="margin-bottom: 0px; font-weight: lighter;">5+</p>
+                    <p class="text-title-big" style="margin-bottom: 0px;">5+</p>
                     <!-- <hr class="yellow-line"> -->
                     <p class="text-content" style="text-align: center; color: #333333;">Major Keynotes</p>
                 </div>   
             </div>            
             
             <div class="row" id="about-video">
+                <!-- <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/t84rAFBwrVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="intro_video"></iframe>
+                </div> -->
                 <div class="embed-responsive embed-responsive-16by9">
                     <video id="intro_video" controls>
                         <source src="video/intro_video.mp4" type="video/mp4">
                     </video>
-                    <!-- <button class="video-btn" id="play_button">Play</button> -->
                 </div>
                 <div class="video-content">
+                    <div class="live-btn">Live</div>
                     <p class="text-content" style="color: white;">Binance Off the Charts Virtual Conference</p>
-                    <p class="text-mini" style="color: white;">JUL 14 2020|9:00 AM - 7:00 PM (UTC)</p>
+                    <p class="text-small" style="color: white;">JUL 14 2020|9:00 AM - 7:00 PM (UTC)</p>
                 </div>
             </div>
+            <div class="video-footer"><a href="#"> > Live Streamming Site </a></div>
             
             <div class="row" id="about-conference">
                 <!-- this span is to hide the left overflow image -->
@@ -136,11 +143,12 @@
                     <div class="custom-carousel swiper-container" id="carousel_img_list">
                         <a class="left-btn" style="background-image: url(img/left_arrow.png);"></a>
                         <a class="right-btn" style="background-image: url(img/right_arrow.png);"></a>
-                        <img class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;">
-                        <!-- <img class="custom-carousel-item item-0" src="img/collage_conference.png">
-                        <img class="custom-carousel-item item-1" src="img/high-rise-building.png">
-                        <img class="custom-carousel-item item-2" src="img/collage_conference.png"> -->
-
+                        <video class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;" controls>
+                        <!-- <div class="embed-responsive embed-responsive-16by9">
+                            <video id="intro_video" controls>
+                                <source src="video/intro_video.mp4" type="video/mp4">
+                            </video>
+                        </div> -->
                     </div>
                 </div>
                 <!-- this span is to hide the left overflow image -->
@@ -153,7 +161,7 @@
 
     <section id="Speakers">
             <div class="custom-container" style="background-color: #e5e5e5;">
-                <p class="text-title-big" style="margin-bottom: 0px; margin-top: 40px; font-weight: bold;">Our 2020 speakers</p>
+                <p class="text-title-big" style="margin-bottom: 0px; margin-top: 40px;">Our 2020 speakers</p>
                 <div class="row row-main " id="speaker_list">
                     <div class="center-div speaker" style="display: none; opacity: 0" id="speaker_example">
                         <div class="speaker_bg" style="background-image: url(img/speaker_masked.jpg); ">
@@ -176,7 +184,7 @@
             <div class="custom-container">   
                 <div class="row row-main ">
                     <div class="center-div">
-                        <p class="text-title-big" style="font-weight: bold;">Agenda</p>
+                        <p class="text-title-big">Agenda</p>
                         <p class=" speaker-name" style="color: #FFFFFF; ">You will enjoy a 2 day hackathon, 2 day conference, listening to experts and their insights <br> to the crypto world. And have various opportunities to converse with others in the crypto community.</p>
                     </div>
                     <button data-toggle="collapse" data-target="#agenda_collapse" class="custom_btn" id="view_agenda_btn">View Agenda</button>
@@ -268,12 +276,20 @@
         </div>
     </section>
 
-    <section id="Awards">
-        <div class="custom-container">
-            <div class="row row-main" id="binance_awards">
-                <p class="text-title" style="margin: 20px;">Binance Awards 2020 </p>
-                <p class="text-content" style="text-align: center; margin-bottom: 60px; margin-top: 20px;">Join Binance as we celebrate the standout innovators and businesses that have made sizable contributions, both to our community and to our blockchain ecosystem. Winners will be announced during our live event, and results will be published on our blog afterwards.</p>
+    <section id="Awards" class="img-section">
+        <div id="awards_collapse_original">
+            <div class="custom-container">   
+                <div class="row row-main ">
+                    <div class="center-div">
+                        <p class="text-title-big" style="color: black;">Binance Awards 2020 </p>
+                        <p class=" speaker-name" style="color: black; ">Join Binance as we celebrate the standout innovators and businesses that have made sizable contributions, both to our community and to our blockchain ecosystem. Winners will be announced during our live event, and results will be published on our blog afterwards.</p>
+                    </div>
+                    <button data-toggle="collapse" data-target="#awards_collapse" class="custom_btn" id="view_awards_btn" style="position: relative; z-index: 100;">View Awards</button>
+                </div>
             </div>
+        </div>
+        <div id="awards_collapse" class="collapse" style="position: relative; z-index: 100;">
+        <div class="custom-container">
 
             <div class="row row-main" id="awards_list">
                 <div class="award_title_container">
@@ -327,21 +343,9 @@
                         </div>
                     </div>
                 </div>
+                <button data-toggle="collapse" data-target="#awards_collapse" class="custom_btn show_less" id="view_awards_btn_less" style="position: relative; z-index: 100;">View Less</button>
             </div>
-
-            <div class="row row-main " id="speaker_list">
-                <div class="center-div speaker" style="display: none; opacity: 0" id="speaker_example">
-                    <div class="speaker_bg" style="background-image: url(img/speaker_masked.jpg); ">
-                        <div class="speaker-text">
-                            <p class="text-content">Changpeng Zhao</p>
-                            <!-- <p class="text-content" style="color: #828282;">Binance<br>CEO</p>  -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="center-div" style="width: 100%; height: auto; padding: 0px;">
-                <button class="custom_btn" id="view_more_speaker_btn">View more</button>
-            </div>
+        </div>
         </div>
     </section>
 
@@ -367,25 +371,25 @@
                         <p class="text-content">Discover a diverse array of keynotes, panels, and fireside chats, on these following themes and more: 
                         </p>
                         
-                        <div class="feature_icon_block">
+                        <div class="feature_icon_block left">
                             <div class="feature_icon" style="background-image: url('img/Binance_website_icon-01.png');"></div>
                             <p class="text-content">Powering Crypto Growth</p>
                             <p class="text-small">Local blockchain trends and evolving technologies that are transforming crypto awareness and adoption.
                             </p>
                         </div>
-                        <div class="feature_icon_block">
+                        <div class="feature_icon_block right">
                             <div class="feature_icon" style="background-image: url('img/Binance_website_icon-04.png');"></div>
                             <p class="text-content">Crypto Meets Traditional Finance </p>
                             <p class="text-small">Exploring opportunities for integrated and parallel development. 
                             </p>
                         </div>
-                        <div class="feature_icon_block">
+                        <div class="feature_icon_block left">
                             <div class="feature_icon" style="background-image: url('img/Binance_website_icon-02.png');"></div>
                             <p class="text-content">Blockchain and Global Health </p>
                             <p class="text-small">Crypto’s appeal in today’s volatile environment.
                             </p>
                         </div>
-                        <div class="feature_icon_block">
+                        <div class="feature_icon_block right">
                             <div class="feature_icon" style="background-image: url('img/Binance_website_icon-03.png');"></div>
                             <p class="text-content">Policy and Regulation </p>
                             <p class="text-small">Spearheading community initiatives through cooperation and investment.
@@ -410,7 +414,7 @@
     <section id="Partners">
         <div class="custom-container">
             <div class="row row-main " id="speaker_list">
-                <p class="text-title-big" style="text-align: center; margin-bottom: 4%; margin-top: 8%;">2020 Partners </p>
+                <p class="sponsor_title_container text-title-big" style="text-align: center; margin-bottom: 4%; margin-top: 8%;">2020 Partners </p>
             </div>
             
             <div class="row row-main sponsors_list">
@@ -466,7 +470,7 @@
     <!-- Footer -->
     <footer>
             <div class="container">
-                <p class="m-0 text-center">&copy; 2017 - 2019 Binance.com. All rights reserved</p>
+                <p class="m-0 text-center">&copy; 2017 - 2020 Binance.com. All rights reserved</p>
                 <!-- created by billkung -->
             </div>
             <!-- /.container -->
@@ -483,8 +487,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Google map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVpdqIrLvkd_mrRFvo2U0WXcCMMW61HkI"></script>
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>

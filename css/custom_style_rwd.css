@@ -40,6 +40,9 @@
 		width: 15px;
 		margin-left: 10px;
 	}
+	header > .container{
+		top: 40%;
+	}
 }
 
 @media (max-width:900px){
@@ -75,7 +78,7 @@
 		background-position: 30%
 	}
 	header > .container{
-		top: 25%;
+		top: 43%;
 	}
 	/*text size*/
 	.text-content{
@@ -180,7 +183,7 @@
 		background-position: 30%
 	}
 	header > .container{
-		top: 30%;
+		top: 31%;
 	}
 	.custom_btn{
 		font-size: 16px;

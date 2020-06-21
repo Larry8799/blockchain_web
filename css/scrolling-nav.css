@@ -58,9 +58,6 @@ nav > .container{
 	background-color: #FFFFFF;
 }
 @media (max-width: 992px){
-	#mainNav{
-		height: 80px;
-	}
 	.nav_logo{
 		height: 18px;
 	}
