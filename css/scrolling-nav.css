@@ -58,6 +58,12 @@ nav > .container{
 	background-color: #FFFFFF;
 }
 @media (max-width: 992px){
+	#mainNav{
+		height: 80px;
+	}
+	.nav_logo{
+		height: 18px;
+	}
 	.ml-auto, .mx-auto{
 		left: 0px;
 		margin-left: 0px !important;

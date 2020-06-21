@@ -100,13 +100,10 @@ header > .container{
 	text-align: left;
 }
 
-
 a:link, a:visited {
   	text-decoration: none;
   	color: #F0B90B;
 }
-
-
 
 .custom_btn{
 	display: block;
