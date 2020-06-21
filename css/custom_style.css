@@ -221,6 +221,7 @@ a:link, a:visited {
 .live-btn{
 	width: 70px;
 	text-align: center;
+	margin-top: 1%;
 	margin-bottom: 10px;
 	border-radius: 20px;
 	background-color: #F0B90B;
@@ -256,6 +257,13 @@ a:link, a:visited {
     -o-transition: 0.6s ease;
     -webkit-transition: 0.6s ease;
     transition: 0.6s ease;	
+}
+#about-top .yellow-line{
+	display: inline-block;
+	margin: auto 8px;
+	align-self: center;
+	width: 100%;
+	border: 0.9px solid #F0B90B;
 }
 
 #about-conference{
@@ -631,6 +639,9 @@ td > .text-content{
 	width: 20%;
 	height: 15%;
 	margin: 5%;
+}
+.empty_awards{
+	visibility: hidden;
 }
 .awards_block .yellow-line{
 	display: inline-block;
