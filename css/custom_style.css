@@ -627,6 +627,7 @@ td > .text-content{
 
 .awards_block{
 	display: inline-block;
+	vertical-align: top;
 	width: 20%;
 	height: 15%;
 	margin: 5%;
