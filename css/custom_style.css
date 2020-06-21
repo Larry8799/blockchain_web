@@ -92,10 +92,11 @@ header > .overlay{
 header > .container{
 	z-index: 11;
 	position: absolute;
-	top: 19%;
-	width: 55%;
-	left: 20%;
-	text-align: left;
+	top: 120px;
+	left: 50%;
+	padding-left: 2%;
+	transform: translateY(-50%);
+  	transform: translateX(-50%);
 }
 
 a:link, a:visited {
