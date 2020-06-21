@@ -43,8 +43,11 @@
 		margin-left: 10px;
 	}
 	header > .container{
-		padding-left: 10%;
+		padding-left: 8%;
 		padding-top: 3%;
+	}
+	.custom-carousel-item {
+		margin-left: 15%;
 	}
 }
 
@@ -61,13 +64,16 @@
 		margin-left: 0px;
 	}
 	.custom-carousel > .right-btn{
-		right: -5.2%;
+		right: 5.2%;
 	}
 	.custom-carousel-item {
 		height: 50vw;
 	}
+	.video-item {
+		height: 50vw;
+	}
 	.custom-carousel > .left-btn{
-		left: -5.2%;
+		left: 5.2%;
 	}
 	#about-top{
 		margin: 15px 0px;
@@ -77,11 +83,18 @@
 		width: 20%;
 		/* padding: 1vh 10vw; */
 	}
-	#awards_list > .center-div{
+	#about-top .text-content{
+		height: 55px;
+	}
+	#awards_list .center-div{
 		width: 80%;
 		padding: 1vh 5vw;
 	}
-	#awards_list > .empty_awards{
+	#footer_list .center-div{
+		width: 80%;
+		padding: 1vh 20vw;
+	}
+	#awards_list .empty_awards{
 		display: none;
 	}
 	.awards_img{
@@ -277,6 +290,9 @@
 	#about-top .center-div{
 		padding: 0px 0px;
 	}
+	#about-top .text-content{
+		height: 50px;
+	}
 	#agenda_collapse td button{
 		font-size: 13px;
 		line-height: 16px;
@@ -341,6 +357,9 @@
 		height: 16px;
 		line-height: 16px;
 		font-size: 7px;
+	}
+	#about-top .text-content{
+		height: 36px;
 	}
 }
 @media (min-width:1600px){
@@ -462,12 +481,20 @@
 		width: 35px;
 		margin-left: 10px;
 	}
-	header, #agenda_collapse_original, {
+	header, #agenda_collapse_original{
 		height: 700px;
 		overflow: hidden;
 	}
-
-	/* header > .container{
-		top: 13%;
-	} */
+	header, #awards_collapse_original{
+		height: 700px;
+		overflow: hidden;
+	}
+	header > .container{
+		padding-left: 3%;
+		padding-top: 5%;
+	}
+	.custom-carousel-item {
+		margin-left: 15%;
+		margin-right: 10%;
+	}
 }

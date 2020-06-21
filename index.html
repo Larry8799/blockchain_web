@@ -3,6 +3,10 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155734163-1"></script>
     <script>
   window.dataLayer = window.dataLayer || [];
@@ -112,14 +116,16 @@
             </div>            
             
             <div class="row" id="about-video">
+                <div class="custom-carousel swiper-container" id="carousel_img_list">
+                    <a class="left-btn" style="background-image: url(img/left_arrow.png);"></a>
+                    <a class="right-btn" style="background-image: url(img/right_arrow.png);"></a>
+                    <video class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;" controls>
+                </div>
                 <!-- <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.youtube.com/embed/t84rAFBwrVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="intro_video"></iframe>
-                </div> -->
-                <div class="embed-responsive embed-responsive-16by9">
                     <video id="intro_video" controls>
                         <source src="video/intro_video.mp4" type="video/mp4">
                     </video>
-                </div>
+                </div> -->
                 <div class="video-content">
                     <div class="live-btn">Live</div>
                     <p class="text-content" style="color: white;">Binance Off the Charts Virtual Conference</p>
@@ -140,11 +146,12 @@
 
                 </div>
                 <div class="about-content">
-                    <div class="custom-carousel swiper-container" id="carousel_img_list">
+                    <!-- <div class="custom-carousel swiper-container" id="carousel_img_list">
                         <a class="left-btn" style="background-image: url(img/left_arrow.png);"></a>
                         <a class="right-btn" style="background-image: url(img/right_arrow.png);"></a>
                         <video class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;" controls>
-                    </div>
+                    </div> -->
+                    <video class="video-item" src="video/intro_video.mp4" type="video/mp4" controls></video>
                 </div>
                 <!-- this span is to hide the left overflow image -->
                  <div class="hide_overflow" style="z-index: 0;"></div>
@@ -508,11 +515,89 @@
     </section>
     <!-- Footer -->
     <footer>
-            <div class="container">
-                <p class="m-0 text-center">&copy; 2017 - 2020 Binance.com. All rights reserved</p>
-                <!-- created by billkung -->
+        <div class="custom-container">
+            <div class="row row-main" id="footer_list">
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">About Us</p>
+                    <p class="text-small" href="#About">About</p>
+                    <p class="text-small">Carrers</p>
+                    <p class="text-small">Business Contacts</p>
+                    <p class="text-small">Community</p>
+                    <p class="text-small">Binance Blog</p>
+                    <p class="text-small">Terms</p>
+                    <p class="text-small">Privacy</p>
+                    <p class="text-small">Announcements</p>
+                    <p class="text-small">News</p>
+                </div>
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">Products</p>
+                    <p class="text-small">Exchange</p>
+                    <p class="text-small">Academy</p>
+                    <p class="text-small">BCF</p>
+                    <p class="text-small">Card</p>
+                    <p class="text-small">Info</p>
+                    <p class="text-small">Labs</p>
+                    <p class="text-small">Launchpad</p>
+                    <p class="text-small">Research</p>
+                    <p class="text-small">Trust Wallet</p>
+                </div>
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">Service</p>
+                    <p class="text-small">Downloads</p>
+                    <p class="text-small">Buy Crypto</p>
+                    <p class="text-small">Fees</p>
+                    <p class="text-small">Referral</p>
+                    <p class="text-small">BNB</p>
+                    <p class="text-small">Buy BUSD</p>
+                    <p class="text-small">OTC Trading</p>
+                    <p class="text-small">Listing Application</p>
+                    <p class="text-small">Trading Rules</p>
+                    <p class="text-small">Fiat Gateway Application</p>
+                </div>
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">Support</p>
+                    <p class="text-small">Support Center</p>
+                    <p class="text-small">Submit a request</p>
+                    <p class="text-small">API Documentation</p>
+                    <p class="text-small">Binance Verify</p>
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem; margin-top: 2rem;">Learn</p>
+                    <p class="text-small">Buy Bitcoin</p>
+                    <p class="text-small">Buy Ethereum</p>
+                    <p class="text-small">Buy Ripple</p>
+                    <p class="text-small">Buy Litecoin</p>
+                    <p class="text-small">Buy Bitcoin Cash</p>
+                </div>
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">Community</p>
+                    <div style="display: flex; padding-bottom: 1rem;">
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                    </div>
+                    <div style="display: flex; padding-bottom: 1rem;">
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                    </div>
+                    <div class="dropdown" style="padding-top: 2rem;">
+                        
+                        <button class="btn btn-primary" type="button" data-toggle="dropdown" style="background-color: #12161C; box-sizing: border-box; border: solid 1px #828282; border-radius: 4px;">
+                            <p class="text-small" style="color: #ffffff; vertical-align: middle;">English </p>
+                        </button>
+                        <ul class="dropdown-menu" style="background-color: #828282;">
+                        <li><a href="#" style="color: #ffffff; padding-left: 5px;">Chinese</a></li>
+                        <li><a href="#" style="color: #ffffff; padding-left: 5px">Japanese</a></li>
+                        <li><a href="#" style="color: #ffffff; padding-left: 5px">Spanish</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <!-- /.container -->
+            <p class="m-0 text-center">&copy; 2017 - 2020 Binance.com. All rights reserved</p>
+            <!-- created by billkung -->
+        </div>
+        <!-- /.container -->
     </footer>
     <a class="navbar-brand js-scroll-trigger" href="#page-top" style="position: fixed; z-index: 1200;">
         <img src="img/to_top.png" id="to_top_icon" style="display: none;">

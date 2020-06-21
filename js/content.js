@@ -1,6 +1,6 @@
 // 到時候直接把資料填這裡面
 // name, img_src = img/speakers/${name}.jpg
-var speaker_list=["cz",
+var speaker_list=["CZ",
 "Abhishek Pitti",
 "Darius Sit",
 "Jason Jeon",
