@@ -754,6 +754,7 @@ td > .text-content{
 	height: 4vw;
 	margin: 2vw 20px;
 	object-fit: contain;
+	cursor: pointer;
 }
 
 #last_div{
@@ -840,3 +841,43 @@ footer p{
 	text-align: center; 
 	height: 40px;
 }
+
+/*For popup*/
+.modal-content{
+	margin-top: 40%;
+	height: 50vh;
+	padding: 5vh 50px;
+	border-radius: 0px;
+	width: 500px;
+}
+@media (max-width:520px){
+	.modal-content{
+		width: 100vw;
+	}
+	.modal-dialog{
+		margin: 0px;
+	}
+}
+.contact-modal-text{
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: center;
+	margin-bottom: 5px;
+	height: auto;
+}
+.contact-modal-title{
+	font-size: 4.5vh;
+	/*line-height: 7vh;*/
+}
+.contact-modal-sub{
+	margin-top: 80px;
+	font-size: 3.1vh;
+	/*line-height: 5vh;
+	height: 5ch;*/
+}
+.contact-modal-small{
+	color: #848E9C;
+	font-size: 2vh;
+}
+
