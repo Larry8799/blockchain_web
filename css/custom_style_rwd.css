@@ -147,6 +147,10 @@
 		font-size: 13px;
 		line-height: 16px;
 	}
+	.navbar-collapse .text-small{
+		font-size: 15px;
+		line-height: 20px;
+	}
 	.content-icon{
 		height: 18px;
 		line-height: 18px;
@@ -300,6 +304,10 @@
 	.text-small{
 		font-size: 9px;
 		line-height: 12px;
+	}
+	.navbar-collapse .text-small{
+		font-size: 12px;
+		line-height: 16px;
 	}
 	.content-icon{
 		height: 14px;
