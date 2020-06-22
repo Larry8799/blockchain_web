@@ -939,14 +939,7 @@ footer p{
 	border-radius: 0px;
 	width: 500px;
 }
-@media (max-width:520px){
-	.modal-content{
-		width: 100vw;
-	}
-	.modal-dialog{
-		margin: 0px;
-	}
-}
+
 .contact-modal-text{
 	font-family: "IBM Plex Sans";
 	font-style: normal;
@@ -969,6 +962,30 @@ footer p{
 	color: #848E9C;
 	font-size: 2vh;
 }
+.modal-close-btn{
+	background-image: url(../img/close.png);
+	background-size: contain;
+	height: 30px;
+	width: 30px;
+	margin-left: calc(50% - 15px);
+	background-color: white;
+	cursor: pointer;
+	margin-top: 3vh;
+}
+@media (max-width:520px){
+	.modal-content{
+		width: 100vw;
+		height: 58vh;
+	}
+	.modal-dialog{
+		margin: 0px;
+	}
+	.contact-modal-title{
+		font-size: 3.5vh;
+		/*line-height: 7vh;*/
+	}
+}
+
 
 #footer_list{
 	display: flex;
