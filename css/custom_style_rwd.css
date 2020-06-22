@@ -79,7 +79,7 @@
 		margin: 15px 0px;
 		width: 90%;
 	}
-	#about-top > .center-div{
+	#about-top .center-div{
 		width: 20%;
 		/* padding: 1vh 10vw; */
 	}
@@ -226,6 +226,16 @@
 	}
 	.mobile-footer{
 		display: block;
+	}
+	.wide-feature-icon{
+		display: none;
+	}
+	.mobile-feature-icon{
+		display: block;
+	}
+	.mobile-feature-icon .left-div{
+		width: 100%;
+		padding: 1vh 10vw;
 	}
 }
 

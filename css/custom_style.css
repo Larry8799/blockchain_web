@@ -175,6 +175,10 @@ a:link, a:visited {
 	margin: auto;
 	text-align: center;
 }
+.left-div{
+	margin: auto;
+	text-align: center;
+}
 .custom-container{
 	margin: 0px;
 	display: flex;
@@ -1014,4 +1018,32 @@ footer p{
 .mobile-footer .panel-body{
 	margin-bottom: 0.5rem;
 	color: #ffffff;
+}
+
+.wide-feature-icon{
+	display: block;
+}
+.mobile-feature-icon{
+	display: none;
+}
+.mobile-feature-icon .center-div{
+	/*min-width: 200px;*/
+	/*width: 1vw;*/
+	margin: 2.5% auto 1.5% auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	-moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;	
+}
+.mobile-feature-icon .feature_icon{
+	margin-bottom: 0%;
+	margin-left: 30%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
 }
