@@ -115,21 +115,54 @@
                 </div>   
             </div>            
             
-            <div class="row" id="about-video">
+            <!-- <div class="row" id="about-video">
                 <div class="custom-carousel swiper-container" id="carousel_img_list">
                     <a class="left-btn" style="background-image: url(img/left_arrow.png);"></a>
                     <a class="right-btn" style="background-image: url(img/right_arrow.png);"></a>
                     <video class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;" controls>
                 </div>
-                <!-- <div class="embed-responsive embed-responsive-16by9">
+                <div class="embed-responsive embed-responsive-16by9">
                     <video id="intro_video" controls>
                         <source src="video/intro_video.mp4" type="video/mp4">
                     </video>
-                </div> -->
+                </div>
                 <div class="video-content">
                     <div class="live-btn">Live</div>
                     <p class="text-content" style="color: white;">Binance Off the Charts Virtual Conference</p>
                     <p class="text-small" style="color: white;">JUL 14 2020|9:00 AM - 7:00 PM (UTC)</p>
+                </div>
+            </div> -->
+            <div id="video-stream-container" class="row ">
+                <div class="about-video main-video">
+                    <!-- <div class="main-video"> -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Stream 1 -->
+                        <video id="intro_video" controls poster = "video/intro_video_new_cover.png" >
+                            <source src="video/intro_video_new.mp4" type="video/mp4">
+                        </video>
+                        <div class="change-video-btn right">Go to Parrallel session</div>
+                    </div>
+                    <div class="video-content">
+                        <div class="live-btn">Live</div>
+                        <p class="text-content" style="color: white;">Binance Off the Charts Virtual Conference</p>
+                        <p class="text-small" style="color: white;">JUL 14 2020|9:00 AM - 7:00 PM (UTC)</p>
+                    </div>
+                    
+                </div>
+                <div class="about-video vice-video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- Stream 2 -->
+                        <video id="intro_video" controls poster = "video/intro_video_new_cover_2.png" >
+                            <source src="video/intro_video_new.mp4" type="video/mp4">
+                        </video>
+                        <div class="change-video-btn left">Go to Main Venue</div>
+                    </div>
+                    <div class="video-content">
+                        <div class="live-btn">Live</div>
+                        <p class="text-content" style="color: white;">Binance Off the Charts Virtual Conference</p>
+                        <p class="text-small" style="color: white;">JUL 14 2020|9:00 AM - 7:00 PM (UTC)</p>
+                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
             <div class="video-footer"><a href="#"> > Live Streamming Site </a></div>
@@ -151,7 +184,7 @@
                         <a class="right-btn" style="background-image: url(img/right_arrow.png);"></a>
                         <video class="custom-carousel-item" src="img/collage_conference.png" id="example_carousel_item" style="display: none;" controls>
                     </div> -->
-                    <video class="video-item" src="video/intro_video.mp4" type="video/mp4" controls></video>
+                    <video class="video-item" poster = "video/intro_video_new_cover.png" src="video/intro_video_new.mp4" type="video/mp4" controls></video>
                 </div>
                 <!-- this span is to hide the left overflow image -->
                  <div class="hide_overflow" style="z-index: 0;"></div>
@@ -614,11 +647,12 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-    <script src="js/custom-carousel.js"></script>
+    <!-- <script src="js/custom-carousel.js"></script> -->
     <script src="js/content.js"></script>
     <script src="js/speaker.js"></script>
     <script src="js/agenda.js"></script>
     <script src="js/sponsor.js"></script>
+    <script src="js/video_change.js"></script>
     <!-- <script src="js/video.js"></script> -->
     
     </body>
