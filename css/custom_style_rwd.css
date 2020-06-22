@@ -49,6 +49,29 @@
 	.custom-carousel-item {
 		margin-left: 15%;
 	}
+	#awards_list .award-name{
+		height: 70px;
+	}
+	#awards_list .text-small{
+		height: 130px;
+	}
+}
+
+@media (max-width:1100px){
+	/* .text-content{
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.text-small{
+		font-size: 15px;
+		line-height: 18px;
+	} */
+	#awards_list .award-name{
+		height: 110px;
+	}
+	#awards_list .text-small{
+		height: 160px;
+	}
 }
 
 @media (max-width:900px){
@@ -87,7 +110,7 @@
 		height: 55px;
 	}
 	#awards_list .center-div{
-		width: 80%;
+		width: 90%;
 		padding: 1vh 5vw;
 	}
 	#footer_list .center-div{
@@ -396,6 +419,10 @@
 		font-size: 12px;
 		line-height: 16px;
 	}
+	.text-small{
+		font-size: 20px;
+		line-height: 24px;
+	}
 	.text-content{
 		font-family: "IBM Plex Sans";
 		font-style: normal;
@@ -438,6 +465,12 @@
 		width: 30px;
 		margin-left: 10px;
 	}
+	#awards_list .award-name{
+		height: 130px;
+	}
+	#awards_list .text-small{
+		height: 150px;
+	}
 }
 @media (min-width:1900px){
   	.text-title-big{
@@ -460,6 +493,10 @@
 		font-size: 32px;
 		line-height: 40px;
 		width: 100%;
+	}
+	.text-small{
+		font-size: 25px;
+		line-height: 32px;
 	}
 	.text-title{
 		font-family: IBM Plex Sans;
@@ -512,5 +549,11 @@
 	.custom-carousel-item {
 		margin-left: 15%;
 		margin-right: 10%;
+	}
+	#awards_list .award-name{
+		height: 160px;
+	}
+	#awards_list .text-small{
+		height: 220px;
 	}
 }

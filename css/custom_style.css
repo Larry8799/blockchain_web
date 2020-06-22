@@ -1047,3 +1047,9 @@ footer p{
 	background-repeat: no-repeat;
 	background-position-x: center;
 }
+#awards_list .award-name{
+	height: 120px;
+}
+#awards_list .text-small{
+	height: 150px;
+}
