@@ -254,11 +254,11 @@ a:link, a:visited {
 }
 @media (max-width:520px){
 	.change-video-btn{
-		right: 5px;
-		top: 10px;
-		width: 100px;
-		padding:2px 4px;
-		font-size: 6px;
+		right: 8px;
+		top: 15px;
+		width: 180px;
+		padding:4px 7px;
+		font-size: 14px;
 	}
 }
 /*.vice-video, .main-video{
@@ -542,13 +542,14 @@ a:link, a:visited {
 #awards_collapse_original{
 	position: relative;
 	background-color: #CBCBCB;
-	background-image: none;
+	background-image: url(../img/Awards-bg.jpg);;
 }
-#agenda_collapse_original .overlay{
+#agenda_collapse_original .overlay, #awards_collapse_original .overlay{
 	position: absolute;
 	background-color: rgba(0,0,0,0.7);
 	z-index: 2;
 }
+
 #agenda_collapse_original .row, #agenda_collapse_original .custom-container{
 	height: 100%;
 	padding: 5% 10%;
@@ -1052,4 +1053,32 @@ footer p{
 }
 #awards_list .text-small{
 	height: 150px;
+}
+
+#contact-modal-btn{
+	margin: 20px auto;
+	margin-right: 5%;
+	float:right;
+	background-color: white;
+	color: black;
+	border: 0px;
+	-moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;	
+}
+#contact-modal-btn:hover{
+	transform: scale(1.3);
+	-moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;	
+}
+#contact-modal-btn > img{
+	height: 30px;
+	margin-left: 15px;
+	width: auto;
+	object-fit: contain;
 }
