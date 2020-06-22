@@ -3,7 +3,6 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
@@ -32,6 +31,7 @@
     <link href="css/custom_style.css" rel="stylesheet">
     <link href="css/custom_style_rwd.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap_style.css" rel="stylesheet" > -->
 
 </head>
 
@@ -547,7 +547,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer>
+    <footer class="wide-footer">
         <div class="custom-container">
             <div class="row row-main" id="footer_list">
                 <div class="center-div footer_block">
@@ -615,14 +615,16 @@
                         <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
                     </div>
                     <div class="dropdown" style="padding-top: 2rem;">
-                        
                         <button class="btn btn-primary" type="button" data-toggle="dropdown" style="background-color: #12161C; box-sizing: border-box; border: solid 1px #828282; border-radius: 4px;">
-                            <p class="text-small" style="color: #ffffff; vertical-align: middle;">English </p>
+                            <p class="text-small" style="color: #ffffff; vertical-align: middle; margin-bottom: 0px;">
+                                English
+                                <span class="caret"></span>
+                            </p>
                         </button>
                         <ul class="dropdown-menu" style="background-color: #828282;">
-                        <li><a href="#" style="color: #ffffff; padding-left: 5px;">Chinese</a></li>
-                        <li><a href="#" style="color: #ffffff; padding-left: 5px">Japanese</a></li>
-                        <li><a href="#" style="color: #ffffff; padding-left: 5px">Spanish</a></li>
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px;">Chinese</a></li>
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px">Japanese</a></li>
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px">Spanish</a></li>
                         </ul>
                     </div>
                 </div>
@@ -631,6 +633,141 @@
             <!-- created by billkung -->
         </div>
         <!-- /.container -->
+    </footer>
+    <footer class="mobile-footer">
+        <div class="custom-container">
+            <div class="row row-main" id="footer_list">
+                <div class="panel-group center-div footer_block" style="width: 100%;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" data-toggle="collapse" href="#collapse1">
+                            <a class="text-content" style="color: #ffffff;">
+                                About Us</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">About</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Carrers</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Business Contacts</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Community</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Binance Blog</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Terms</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Privacy</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Announcements</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">News</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group center-div footer_block" style="width: 100%;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" data-toggle="collapse" href="#collapse2">
+                            <a class="text-content" style="color: #ffffff;">
+                                Products</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Exchange</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Academy</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">BCF</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Card</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Info</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Labs</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Launchpad</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Research</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Trust Wallet</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;"></div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;"></div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;"></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group center-div footer_block" style="width: 100%;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" data-toggle="collapse" href="#collapse3">
+                            <a class="text-content" style="color: #ffffff;">
+                                Service</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Downloads</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Crypto</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Fees</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Referral</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">BNB</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy BUSD</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">OTC Trading</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Listing Application</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Trading Rules</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Fiad Gateway Application</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group center-div footer_block" style="width: 100%;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" data-toggle="collapse" href="#collapse4">
+                            <a class="text-content" style="color: #ffffff;">
+                                Support</a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Support Center</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Submit a request</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">API Documentation</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Binance Verify</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group center-div footer_block" style="width: 100%;">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title" data-toggle="collapse" href="#collapse5">
+                            <a class="text-content" style="color: #ffffff;">
+                                Learn</a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Bitcoin</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Ethereum</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Ripple</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Litecoin</div></a>
+                            <a href="#"><div class="panel-body text-small" style="color: #828282;">Buy Bitcoin Cash</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-div footer_block">
+                    <p class="text-content" style="color: #ffffff; margin-bottom: 1rem;">Community</p>
+                    <div style="display: flex; padding-bottom: 1rem;">
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                    </div>
+                    <div style="display: flex; padding-bottom: 1rem;">
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                        <div class="footer_icon" style="background-image: url('img/twitter-icon.png');"></div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-primary" type="button" data-toggle="dropdown" style="background-color: #12161C; box-sizing: border-box; border: solid 1px #828282; border-radius: 4px;">
+                            <p class="text-small" style="color: #ffffff; vertical-align: middle; margin-bottom: 0px;">
+                                English
+                                <span class="caret"></span>
+                            </p>
+                        </button>
+                        <ul class="dropdown-menu" style="background-color: #828282;">
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px;">Chinese</a></li>
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px">Japanese</a></li>
+                        <li><a class="text-small" href="#" style="color: #ffffff; padding-left: 5px">Spanish</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="m-0 text-center">&copy; 2017 - 2020 Binance.com. All rights reserved</p>
+        </div>
     </footer>
     <a class="navbar-brand js-scroll-trigger" href="#page-top" style="position: fixed; z-index: 1200;">
         <img src="img/to_top.png" id="to_top_icon" style="display: none;">

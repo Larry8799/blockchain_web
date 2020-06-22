@@ -980,6 +980,10 @@ footer p{
 	text-align: left;
 }
 
+.mobile-footer .footer_block{
+	margin: 0%;
+}
+
 .footer_icon{
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -987,4 +991,27 @@ footer p{
 	height: 10%;
 	padding-top: 8%;
 	margin-bottom: 5%;
+}
+
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 0px;
+	vertical-align: middle;
+	border-top: 4px dashed;
+	border-top: 4px solid\9;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+
+.wide-footer{
+	display: block;
+}
+.mobile-footer{
+	display: none;
+}
+.mobile-footer .panel-body{
+	margin-bottom: 0.5rem;
+	color: #ffffff;
 }

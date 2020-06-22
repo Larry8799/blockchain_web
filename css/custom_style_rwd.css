@@ -221,6 +221,12 @@
 		line-height: 30px;
 		font-size: 14px;
 	}
+	.wide-footer{
+		display: none;
+	}
+	.mobile-footer{
+		display: block;
+	}
 }
 
 @media (max-width:520px){
