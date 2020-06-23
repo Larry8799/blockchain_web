@@ -264,6 +264,12 @@
 		width: 100%;
 		padding: 1vh 10vw;
 	}
+	#awards_list .award-name{
+		height: 100%;
+	}
+	#awards_list .text-small{
+		height: 100%;
+	}
 }
 
 @media (max-width:520px){
